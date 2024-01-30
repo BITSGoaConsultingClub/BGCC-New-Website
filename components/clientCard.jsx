@@ -3,8 +3,8 @@ import clients from "@/utils/clients";
 export default function ClientCard({ ind }) {
   const index = parseInt(ind);
   return (
-    <Card className="py-4 flex flex-col font-poppins max-w-[325px] h-80 ">
-      <CardBody className="max-h-[320px] overflow-visible py-2 flex flex-row justify-center">
+    <Card className="py-4 flex flex-col font-poppins max-w-[325px] ">
+      <CardBody className="max-h-[290px] overflow-visible py-2 flex flex-row justify-center">
         <Image
           alt="Card background"
           className="object-cover rounded-xl"
