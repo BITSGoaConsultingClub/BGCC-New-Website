@@ -43,7 +43,7 @@ export default function ClientsSlider({ windowWidth }) {
         //   renderBottomCenterControls={() => null}
       >
         {clients.map((client) => (
-          <Card className="py-4 font-poppins max-w-[325px]  border-1 border-gray-400 mb-10 md:mb-14 mx-auto">
+          <Card className="py-4 font-poppins h-80 max-w-[325px]  border-1 border-gray-400 mb-10 md:mb-14 mx-auto">
             <CardBody className="overflow-visible py-2 flex flex-row justify-center">
               <Image
                 alt="Card background"
