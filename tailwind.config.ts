@@ -18,6 +18,8 @@ const config: Config = {
         "services-image": "url('https://imgur.com/PpWOGK4.png')",
         "testimonials-image": "url('https://imgur.com/EhxwNPe.png')",
         "events-image": "url('https://imgur.com/G3kjEWa.png')",
+        "bg-loading":
+          "url('https://cdn.dribbble.com/users/1991554/screenshots/7907346/media/4883405c5ebbb70d93ab4bf3be439db2.gif')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

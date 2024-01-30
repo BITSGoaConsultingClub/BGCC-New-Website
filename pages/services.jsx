@@ -1,7 +1,19 @@
 import ServiceCard from "@/components/ServiceCard";
 import Newsletter from "@/components/Newsletter";
 import servicesList from "@/utils/services";
+import Loading from "../components/loading";
+import { useState, useEffect } from "react";
 export default function ServicesPage() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    // Simulate a network request to fetch your data
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3500); // 2 seconds delay
+  }, []);
+  if (isLoading) {
+    return <Loading />; // This is your loading screen
+  }
   const serviceElements = servicesList.map((ele, index) => (
     <ServiceCard
       title={ele.title}

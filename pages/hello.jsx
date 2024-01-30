@@ -19,7 +19,7 @@ import {
 } from "@/components/ui/carousel";
 import StratCard from "@/components/StratCard";
 import strategies from "../utils/strategies";
-
+import Loading from "../components/loading";
 import { useState, useEffect } from "react";
 
 function useWindowWidth() {
@@ -43,8 +43,19 @@ const cardElements = strategies.map((ele) => (
   </CarouselItem>
 ));
 export default function Hello() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    // Simulate a network request to fetch your data
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3500); // 2 seconds delay
+  }, []);
   const windowWidth = useWindowWidth();
   // console.log(windowWidth);
+  if (isLoading) {
+    return <Loading />; // This is your loading screen
+  }
+
   return (
     <div className="flex flex-col   h-full w-full  font-poppins overflow-hidden">
       <div className="flex flex-col h-screen bg-hero bg-cover bg-center bg-no-repeat">
