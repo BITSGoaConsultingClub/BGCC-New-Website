@@ -1,6 +1,6 @@
 const servicesList = [
   {
-    logoUrl: "https://i.imgur.com/T22OPpO.png",
+    // logoUrl: "https://i.imgur.com/T22OPpO.png",
     title: "Go To Market Strategy",
     description: `Our consulting club empowers companies with an effective Go-To-Market
           (GTM) strategy, optimizing their product launch and market

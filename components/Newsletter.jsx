@@ -19,7 +19,7 @@ export default function Newsletter() {
   return (
     <div className="flex flex-col font-poppins  gap-6 lg:gap-8 items-center p-6 md:p-12 lg:p-16 xl:p-20">
       {/* section-01 => title */}
-      <div className="flex flex-col items-center gap-3 ">
+      {/* <div className="flex flex-col items-center gap-3 ">
         <h2 className="font-bold text-4xl">
           Subscribe To Our Quarterly{" "}
           <span className="text-color-bgcc-yellow">Newsletter BizBeat</span>
@@ -45,7 +45,7 @@ export default function Newsletter() {
         >
           Subscribe
         </Button>
-      </div>
+      </div> */}
       <div className="flex flex-col gap-10 lg:gap-2 lg:flex-row bg-[#343434] bg-opacity-[50%] p-8 lg:p-12 items-center lg:justify-start border-small rounded-xl">
         <div className="flex flex-col basis-1/2 gap-3">
           <h2 className="font-bold text-4xl">

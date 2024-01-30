@@ -45,7 +45,7 @@ export default function Home() {
       <Services />
       <div className="flex flex-col items-center gap-4 lg:gap-6 mx-auto mb-10 lg:mb-16 p-6 md:p-12 lg:p-16 xl:p-20">
         <SeeAll toPage="/services" />
-        <Stratergies />
+        <Stratergies windowWidth={windowWidth} />
       </div>
       <Clients windowWidth={windowWidth} />
       <TestimonialSection />

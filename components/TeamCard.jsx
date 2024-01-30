@@ -3,8 +3,8 @@ import team from "@/utils/team";
 export default function Team({ ind }) {
   const index = parseInt(ind);
   return (
-    <div className="bg-[#343434] mx-6 bg-opacity-[50%] rounded-md shadow-md flex flex-col gap-2 items-center py-6 px-8 lg:px-12">
-      <div className="rounded-full overflow-hidden h-32 w-32 mr-4">
+    <div className="bg-[#343434] basis-1/3 my-4 mx-6 bg-opacity-[50%] rounded-md shadow-md flex flex-col gap-2 items-center py-6 px-8 lg:px-12">
+      <div className="rounded-full overflow-hidden h-32 w-32 mr-4 my-auto">
         <img
           src={team[index].imgUrl}
           alt="name"
