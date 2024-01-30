@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "landing-image": "url('https://imgur.com/LiBzwRq.png')",
+        "landing-image": "url('https://imgur.com/a/F6KvGQE.png')",
         hero: "url('https://i.imgur.com/BYu3zAD.png')",
         "clients-image": "url('https://imgur.com/4wO9cQv.png')",
         "client-01": "url('https://imgur.com/rRFilsZ')",
