@@ -39,7 +39,7 @@ export default function ClientsSlider({ windowWidth }) {
         cellSpacing={20}
         autoplay={true}
         pauseOnHover={true}
-        wrapAround={true}
+        // wrapAround={true}
         //   renderBottomCenterControls={() => null}
       >
         {clients.map((client) => (

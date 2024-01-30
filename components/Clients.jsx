@@ -36,7 +36,7 @@ export default function Clients({ windowWidth }) {
       <div className="flex flex-col px-6 md:px-12 lg:px-16 xl:px-20">
         <SeeAll toPage="/clients" />
       </div>
-      <div className="flex flex-col px-6 md:px-12 lg:px-16 xl:px-20 overflow-x-hidden">
+      <div className="flex flex-col px-6 md:px-12 lg:px-16 xl:px-20 overflow-hidden">
         <ClientsSlider windowWidth={windowWidth} />
       </div>
     </div>
