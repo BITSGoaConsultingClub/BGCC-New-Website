@@ -27,11 +27,10 @@ const testimonials = [
 ];
 export const landingPageTestimonial = {
   primary: {
-    name: "Aditya Ghosh",
-    title: "Lead at Navjyoti India Foundation",
-    content: `Team BGCC was involved in helping to improve our e-commerce platform, which was in dire need of updating and modernization. The students took on this challenge enthusiastically, and their work has significantly impacted our online sales and revenue.
-They also provided invaluable support for our video conferencing needs. The team helped us optimize our setup for better performance and ease of use`,
-    imgUrl: "https://imgur.com/3mrSIT7.png",
+    name: "Swapnil Saurav",
+    title: "Co-founder and CEO, Rigi",
+    content: `We had a wonderful experience collaborating with BGCC for conducting extensive product and market research related to our upcoming ed-tech influencer product at Rigi.The team displayed utmost professionalism throughout the process, diligently identifying gaps in the current market and product offerings. Their valuable insights and recommendations have provided Rigi with innovative strategies to enhance our product development and engage with creators effectively. Moreover, the project adhered to the agreed-upon timeline, further demonstrating the team's commitment and efficiency.`,
+    imgUrl: "https://imgur.com/a/6Oi48q0.png",
   },
   others: [
     //only keep 4 images if possible
