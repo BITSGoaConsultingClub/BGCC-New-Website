@@ -8,13 +8,6 @@ const team = [
     linkedinLink: "https://www.linkedin.com/in/rupesh-yarlagadda/",
   },
   {
-    name: "Rupesh Yarlagadda",
-    designation: "President",
-    imgUrl: "https://imgur.com/pGcsJSp.png",
-    instaLink: "https://www.instagram.com/",
-    linkedinLink: "https://www.linkedin.com/in/rupesh-yarlagadda/",
-  },
-  {
     name: "Bhavya L Narayanan",
     designation: "Operations Director",
     imgUrl: "https://imgur.com/tBorfs7.png",
