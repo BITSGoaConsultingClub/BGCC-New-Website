@@ -6,16 +6,16 @@ import PastEvents from "@/components/PastEvents";
 import Loading from "../components/loading";
 import { useState, useEffect } from "react";
 export default function EventsPage() {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    // Simulate a network request to fetch your data
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3500); // 2 seconds delay
-  }, []);
-  if (isLoading) {
-    return <Loading />; // This is your loading screen
-  }
+  // const [isLoading, setIsLoading] = useState(true);
+  // useEffect(() => {
+  //   // Simulate a network request to fetch your data
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 3500); // 2 seconds delay
+  // }, []);
+  // if (isLoading) {
+  //   return <Loading />; // This is your loading screen
+  // }
   return (
     <div className="flex flex-col gap-12 h-full">
       <div className="flex flex-col h-screen bg-events-image bg-cover bg-no-repeat items-center justify-center">

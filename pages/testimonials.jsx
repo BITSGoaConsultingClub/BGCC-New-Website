@@ -8,17 +8,17 @@ const testiEle = testimonials.map((t, index) => {
   return <TestimonialCard ind={index} />;
 });
 export default function Testimonials() {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    // Simulate a network request to fetch your data
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3500); // 2 seconds delay
-  }, []);
-  if (isLoading) {
-    return <Loading />; // This is your loading screen
-  }
-  console.log(testiEle);
+  // const [isLoading, setIsLoading] = useState(true);
+  // useEffect(() => {
+  //   // Simulate a network request to fetch your data
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 3500); // 2 seconds delay
+  // }, []);
+  // if (isLoading) {
+  //   return <Loading />; // This is your loading screen
+  // }
+  // console.log(testiEle);
   return (
     <div className="flex flex-col gap-12 h-full">
       <div className="flex flex-col h-screen bg-testimonials-image bg-auto bg-no-repeat items-center justify-center">
