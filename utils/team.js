@@ -1,5 +1,12 @@
 //add the orignal team data to second index
 const team = [
+   {
+    name: "Rupesh Yarlagadda",
+    designation: "President",
+    imgUrl: "https://imgur.com/pGcsJSp.png",
+    instaLink: "https://www.instagram.com/",
+    linkedinLink: "https://www.linkedin.com/in/rupesh-yarlagadda/",
+  },
   {
     name: "Bhavya L Narayanan",
     designation: "Operations Director",
