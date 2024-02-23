@@ -5,7 +5,7 @@ export default function Loading() {
     <div className=" h-[100vh] w-full overflow-hidden">
       <Image
         src={
-          "https://i.imgur.com/RgN4KDq.gif"
+          "[img]https://i.imgur.com/RgN4KDq.gif[/img]"
         }
         alt="jbdsjk"
         width={700}
