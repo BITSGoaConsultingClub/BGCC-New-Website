@@ -160,7 +160,7 @@ export default function Team() {
                   </svg>
                 </a> */}
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/yashpratap19/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700"
