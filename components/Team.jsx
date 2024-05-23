@@ -125,7 +125,7 @@ export default function Team() {
           <div className="bg-[#343434] bg-opacity-[50%] rounded-md shadow-md flex  items-center py-12 px-10 lg:px-16">
             <div className="rounded-full overflow-hidden h-32 w-32 mr-4">
               <img
-                src="https://i.imgur.com/XdKBFbf.png"
+                src="https://i.imgur.com/Pr6ULtO.jpeg"
                 alt="name"
                 className="w-full h-full object-cover"
               />
@@ -135,7 +135,7 @@ export default function Team() {
                 President
               </h2>
               <p className="text-xl lg:text-2xl text-semibold text-white">
-                Rupesh Yarlagadda
+                Yash Pratap Singh
               </p>
               <div className="mt-2 flex space-x-2  justify-center">
                 {/* <a
