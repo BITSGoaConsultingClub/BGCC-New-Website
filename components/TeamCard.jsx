@@ -15,7 +15,7 @@ export default function Team({ ind }) {
         <h2 className="text-2xl lg:text-3xl font-bold text-color-bgcc-yellow">
           {team[index].designation}
         </h2>
-        <p className="text-xl lg:text-2xl text-semibold text-white">
+        <p className="text-xl lg:text-xl text-semibold text-white">
           {team[index].name}
         </p>
         <div className="mt-2 flex space-x-4">
