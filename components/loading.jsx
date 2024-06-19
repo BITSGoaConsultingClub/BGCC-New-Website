@@ -5,8 +5,8 @@ export default function Loading() {
     <div className="flex justify-center items-center h-screen">
       <Image
         src={"https://i.imgur.com/EUzxAUw.gif"}
-        width={100}
-        height={100}
+        width={500}
+        height={500}
         className=""
         alt="Loading"
       />
