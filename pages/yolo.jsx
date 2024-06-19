@@ -7,7 +7,6 @@ export default function Yolo() {
         src={
           "https://cdn.dribbble.com/users/1991554/screenshots/7907346/media/4883405c5ebbb70d93ab4bf3be439db2.gif"
         }
-        alt="jbdsjk"
         width={700}
         height={700}
         className=" ml-6"
