@@ -23,6 +23,19 @@ export default function ClientsPage() {
           Partners in Success
         </h2>
       </div>
+      <div className="flex justify-center py-12">
+        <div style={{ position: 'relative', paddingTop: 'max(60%, 324px)', width: '100%', height: 0 }}>
+          <iframe
+            src="https://online.fliphtml5.com/hpxya/dhki/"
+            style={{ position: 'absolute', border: 'none', width: '100%', height: '100%', left: 0, top: 0 }}
+            seamless="seamless"
+            scrolling="no"
+            frameBorder="0"
+            allowTransparency="true"
+            allowFullScreen="true"
+          ></iframe>
+        </div>
+      </div>
       <div className="flex flex-col p-6 md:p-12 lg:p-16 xl:p-20 gap-8 lg:gap-16 text-center">
         <div className="flex flex-col font-poppins">
           <h2 className="text-5xl font-bold">Experience Speaks</h2>
