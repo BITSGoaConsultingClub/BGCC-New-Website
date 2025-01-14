@@ -71,8 +71,8 @@ export default function Newsletter() {
             <h2 className="font-bold text-xl text-color-bgcc-yellow">
               Phone Number
             </h2>
-            <p className="text-sm max-w-[60%]">(+91) 8591619175</p>
-            <p className="text-sm max-w-[60%]">(+91) 7073107659</p>
+            <p className="text-sm max-w-[60%]">(+91) 98181 90310</p>
+            <p className="text-sm max-w-[60%]">(+91) 90824 12118</p>
           </div>
           <div className="flex flex-col gap-2">
             <h2 className="font-bold text-xl text-color-bgcc-yellow">
