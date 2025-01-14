@@ -10,6 +10,8 @@ import Clients from "@/components/Clients";
 import Team from "@/components/Team";
 import TestimonialSection from "@/components/TestimonialSection";
 import SeeAll from "@/components/SeeAll";
+import Script from 'next/script';
+
 import {
   Carousel,
   CarouselContent,
@@ -89,6 +91,8 @@ export default function Hello() {
       <Clients windowWidth={windowWidth} />
       <TestimonialSection />
       <Team />
+      <Script src="https://static.elfsight.com/platform/platform.js" strategy="lazyOnload" />
+      <div className="elfsight-app-9e408b4e-a0e1-4aa0-a610-14add0ec05ee" data-elfsight-app-lazy></div>
       <Newsletter />
     </div>
   );
