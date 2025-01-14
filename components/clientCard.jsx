@@ -4,10 +4,10 @@ export default function ClientCard({ ind }) {
   const index = parseInt(ind);
   return (
     <Card className="py-4 flex flex-col font-poppins max-w-[325px] ">
-      <CardBody className="max-h-[290px] overflow-visible py-2 flex flex-row justify-center">
+      <CardBody className="h-auto flex justify-center items-center">
         <Image
           alt="Card background"
-          className="object-cover rounded-xl"
+          className="object-contain rounded-xl max-w-full"
           src={clients[index].imgUrl}
         />
       </CardBody>
