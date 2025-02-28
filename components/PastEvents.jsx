@@ -5,17 +5,18 @@ import pastEvents from "@/utils/pastEvents";
 export default function PastEvents() {
   return (
     <NukaCarousel
-      defaultControlsConfig={{
-        pagingDotsStyle: {
-          fill: "white",
-        },
-      }}
+      autoplay={true}
+      autoplayInterval={3000}
+      wrapAround={true}
       cellAlign="center"
-      renderCenterLeftControls={() => null}
-      renderCenterRightControls={() => null}
+      defaultControlsConfig={{
+        pagingDotsStyle: { fill: "white" },
+        prevButtonText: "<",
+        nextButtonText: ">"
+      }}
     >
-      {pastEvents.map((event) => (
-        <div className="flex flex-row w-full">
+      {pastEvents.map((event, index) => (
+        <div key={index} className="flex justify-center items-center w-full">
           <EventCard
             title={event.title}
             description={event.description}

@@ -3,16 +3,16 @@ const pastEvents = [
     title: "HSBC India Business Case Programme 2024/25",
     description:
       "Unlock real‑world insights with experts, live case solving, and FREE goodies! Join us on Sept 25th at 6 PM (DLT 7) for the HSBC India Business Case Programme 2024/25. Don't miss this chance to elevate your case-solving skills and network with industry leaders.",
-    imgUrl: "/images/hsbc-india.jpg",
-    otherDetails: "Stay tuned for more details.",
-    link: "/events/hsbc-india-business-case-programme",
+    imgUrl: "https://i.ibb.co/0p91h1Hm/image.png",
+    otherDetails: "A big thank you to HSBC, Sattva Consulting and MindMap Consulting",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7244988593042079744",
   },
   {
     title: "Consultant's Gambit",
     description:
-      "Step into the arena with Consultant's Gambit – where aspiring consultants engage in high-stakes, strategic challenges. Hone your analytical skills, compete for top honors, and learn from industry veterans!",
-    imgUrl: "/images/consultants-gambit.jpg",
-    otherDetails: "Register now to secure your spot.",
+      "Step into the arena with Consultant's Gambit – where aspiring consultants engage in high-stakes, strategic challenges. Held as a part of inter-hostel tournaments Zephyr'24",
+    imgUrl: "https://i.ibb.co/Pv1xGYhC/image.png",
+    otherDetails: "Event Recap: Consultant's Gambit",
     link: "/events/consultants-gambit",
   },
   {
